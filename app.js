@@ -45,7 +45,7 @@ function checkAns(idx){
             console.log("userseq:",userSeq)
         }
     }else{
-        h2.innerHTML = `Game over!your score is <b>${level}</b> press any key to start `;
+        h2.innerHTML = `Game over!your score is <b>${level}</b> press any key to start again `;
         document.querySelector("body").style.backgroundColor = "red";        
         setTimeout(function(){
             document.querySelector("body").style.backgroundColor = "white"
